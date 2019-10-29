@@ -1,0 +1,60 @@
+/*used the dev tools inside of chrome to locate the Elements inside of the element tab using shift + ctrl + f to find those elements
+
+/* EX1) Write a selector to target the main title of the page*/
+h1 {
+    color: purple;
+}
+
+/*EX2) Write a selector to target every children of the navbar*/
+nav a{
+    background-color: rgb(255, 25, 0);
+}
+
+/*EX3) Write a selector to target the "continue reading..." inside the jumbotron*/
+.jumbotron a:last-child:hover {
+    background-color: red;
+}
+
+/*div .jumbotron
+    another div .col-md-6
+        h1 .display-4
+        p .lead my-3
+        p .lead mb-0 -->our target "Continue reading..."
+            a .text-white font-weight-bold<--lives here
+        
+//take out the underline in a link 
+//text-decoration: none;
+
+<div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
+<div class="col-md-6 px-0">
+    <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
+    <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
+        efficiently about what’s most interesting in this post’s contents.</p>
+    <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+*/
+/*EX4) Write a selector to target the first blogpost*/
+p.lead.my-3 {
+    background-color: blue;
+}
+
+/*EX5) Write a selector to target the "even" links in the navbar*/
+div.nav-scroller:nth-child(2n+2){
+    background-color: lightskyblue;
+}
+
+
+/*EX6) Write a selector to target the last blog post*/
+main div:last-child.blog-post {
+    color: hotpink;
+}
+
+/*EX7) Write a selector to target all the li into the sidebar/
+
+
+/*EX8) Write a selector to target the second post author*/
+
+
+/*EX9) Write a selector to target the "back to top" link*/
+
+
+/*EX10) Write a selector to target the footer*/
