@@ -50,7 +50,6 @@ main div:last-child.blog-post {
 
 /*EX7) Write a selector to target all the li into the sidebar/
 
-
 /*EX8) Write a selector to target the second post author*/
 
 
@@ -58,3 +57,27 @@ main div:last-child.blog-post {
 
 
 /*EX10) Write a selector to target the footer*/
+
+
+
+/*this is actually what the assignment was:
+
+var selected = document.querySelector('h1)
+
+var selected = document.querySelector ('nav > *)
+
+document.querySelector ('h1') //lists the h1
+
+document.querySelector ('jumbotron a') //lists the a children of the parent jumbotron
+
+document.querySelector ('h3 + .blog-post') //heading plus class blog-post
+
+document.querySelector ('nav a:nth-child(2n)')
+
+document.querySelector ('.blog-post:last-of-type')
+
+document.querySelector ('.blog-sidebar li')
+
+document.querySelector ('.blog-post:nth-of-type(2) .blog-post-meta a')
+
+document.querySelector ('.blog-footer p:last-child a')
